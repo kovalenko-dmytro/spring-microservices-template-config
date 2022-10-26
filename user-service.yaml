@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: ${USER_SERVICE_PROFILE}
+
+server:
+  port: ${USER_SERVICE_PORT}
+  servlet:
+    context-path: /${USER_SERVICE_CONTEXT_PATH}
